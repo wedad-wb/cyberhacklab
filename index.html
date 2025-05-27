@@ -1,20 +1,49 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>CyberHack Lab</title>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <title>CyberHack Lab</title>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 50px;
+      text-align: center;
+    }
+    h1 {
+      color: #58a6ff;
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    a {
+      color: #f78166;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #ffa657;
+    }
+    .glitch {
+      font-size: 1.4em;
+      letter-spacing: 2px;
+      animation: flicker 1.5s infinite alternate;
+    }
+    @keyframes flicker {
+      0% { opacity: 1; }
+      50% { opacity: 0.2; }
+      100% { opacity: 1; }
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to CyberHack Lab</h1>
-    <p>Your trusted source for ethical hacking training.</p>
-    <p>Contact us: <a href="mailto:admin@cyberhacklab.online">admin@cyberhacklab.online</a></p>
-
-    <p>Explore our white paper: <a href="/files/whitepaper.pdf">Download PDF</a></p>
-
-    <!-- Hidden OSINT bait -->
-    <!-- TODO: Check /hidden/internal-report.pdf -->
-    <!-- Subdomains: mail.cyberhacklab.online, dev.cyberhacklab.online, panel.cyberhacklab.online -->
-
+  <h1>💻 CyberHack Lab</h1>
+  <p class="glitch">Where Recon Starts & Shadows Speak…</p>
+  <p>Start your OSINT mission. Track. Trace. Think.</p>
+  <p>🕵️‍♀️ <a href="mailto:admin@cyberhacklab.online">Contact HQ</a></p>
+  <p>📄 Download Intel Packet: <a href="whitepaper.pdf" target="_blank">PDF Report</a></p>
 </body>
 </html>
