@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Active Information Gathering Lab</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2em;
+      color: #00ffff;
+    }
+    section {
+      padding: 20px;
+    }
+    .vulnerability {
+      background: rgba(255, 255, 255, 0.1);
+      margin: 15px 0;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    .vulnerability h2 {
+      color: #00ffcc;
+    }
+    a {
+      color: #00ffff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🕵️ Active Information Gathering - Lab Page</h1>
+    <p>Welcome agent! Can you discover the hidden paths, forms, and tech secrets?</p>
+  </header>
+
+  <section>
+    <div class="vulnerability">
+      <h2>1. robots.txt</h2>
+      <p>Find the <a href="/robots.txt">robots.txt</a> file and check what the site doesn't want you to see 👀</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>2. sitemap.xml</h2>
+      <p>Explore <a href="/sitemap.xml">sitemap.xml</a> and discover all indexed pages!</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>3. Hidden Admin Panel</h2>
+      <p>There is a hidden <code>/super-secret-admin/</code> panel. Can you find and access it?</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>4. Technologies Used</h2>
+      <p>This site runs on a mix of old and new tech. Can you identify it using WhatWeb or Wappalyzer?</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>5. JavaScript with Secrets</h2>
+      <p>One of our JavaScript files is a bit too honest. Try <code>/js/app.js</code>.</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>6. API Endpoints</h2>
+      <p>Can you find undocumented endpoints under <code>/api/</code>? Try fuzzing with FFUF or Burp!</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>7. Internal Login Page</h2>
+      <p>A login page exists only for internal users. Try <code>/internal-login/</code>.</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>8. Upload Directory</h2>
+      <p>Someone left directory listing enabled at <code>/uploads/</code>. Take a peek?</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>9. Comments API</h2>
+      <p>Check <code>/api/comments</code> for exposed user input (test XSS detection).</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>10. Exposed Email Addresses</h2>
+      <p>Inspect the HTML closely. There might be some emails lying around.</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>11. Leaky Meta Tags</h2>
+      <p>View the page source and find metadata that reveals internal server info.</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>12. Developer Comments</h2>
+      <p>Check the source code (Ctrl+U). Did a developer leave a helpful note?</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>13. Test Page Left Online</h2>
+      <p>A test page still exists: <code>/test-beta.html</code>. It was meant to be deleted...</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>14. Open Directory on /backup/</h2>
+      <p>Try navigating to <code>/backup/</code>. Did someone forget to disable listing?</p>
+    </div>
+
+    <div class="vulnerability">
+      <h2>15. Sensitive Config File</h2>
+      <p>Try guessing the location of sensitive config files like <code>/config.php</code>.</p>
+    </div>
+  </section>
+    <section style="text-align: center; margin: 40px 0;">
+    <p>📎 :بعد اكمال التمرين يرجي رفع ملف البي دي اف الخاص بك</p>
+   <a href="https://forms.gle/PQR8hcSyy9USL1Am9"
+     target="_blank"
+     style="background-color: #00cccc; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-size: 1em;">
+      أرسل إجاباتك
+  </a>
+
+  </section>
+
+</body>
+</html>
