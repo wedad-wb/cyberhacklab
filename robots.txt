@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /hidden/
+Disallow: /admin.html
+Disallow: /backup.html
+Disallow: /active/
+Disallow: /passive/
