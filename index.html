@@ -21,7 +21,7 @@
       font-size: 1.2em;
     }
     a {
-      color: #f78166;
+      color: #58a6ff;
       text-decoration: none;
       font-weight: bold;
     }
@@ -32,11 +32,15 @@
       font-size: 1.4em;
       letter-spacing: 2px;
       animation: flicker 1.5s infinite alternate;
+      color: #8b949e;
     }
     @keyframes flicker {
       0% { opacity: 1; }
       50% { opacity: 0.2; }
       100% { opacity: 1; }
+    }
+    .links {
+      margin: 20px 0;
     }
   </style>
 
@@ -57,18 +61,16 @@
   <p class="glitch">Where Recon Starts & Shadows Speak…</p>
   <p>Start your OSINT mission. Track. Trace. Think.</p>
 
-  <!-- إيميل يمكن لأدوات OSINT اكتشافه -->
-  <p>🕵️‍♀️ <a href="mailto:admin@cyberhacklab.online">Contact HQ</a></p>
+  <div class="links">
+    <p>🕵️‍♀️ <a href="mailto:admin@cyberhacklab.online">Contact HQ</a></p>
+    <p>📄 Download Intel Packet: <a href="whitepaper.pdf" target="_blank">PDF Report</a></p>
+    <p>🗂️ Explore System Files:
+      <a href="admin.html">Admin Panel</a> |
+      <a href="backup.html">Backup Logs</a> |
+      <a href="technologies.html">Tech Stack</a>
+    </p>
+  </div>
 
-  <!-- روابط قابلة للاكتشاف -->
-  <p>📄 Download Intel Packet: <a href="whitepaper.pdf" target="_blank">PDF Report</a></p>
-  <p>🗂️ Explore System Files:
-    <a href="admin.html">Admin Panel</a> |
-    <a href="backup.html">Backup Logs</a> |
-    <a href="technologies.html">Tech Stack</a>
-  </p>
-
-  <!-- نصوص قابلة للاكتشاف في محركات البحث -->
   <div style="margin-top: 50px; font-size: 0.9em;">
     <p>Keywords: OSINT, admin@cyberhacklab.online, CyberHack Internal Docs, admin login, backup.zip, CVE-2024-9999</p>
   </div>
